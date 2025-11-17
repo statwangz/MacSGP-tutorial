@@ -3,7 +3,7 @@
 # -- Project information
 
 project = "MacSGP"
-copyright = "2025, Yeqin Zeng"
+copyright = "2025, Yeqin Zeng and Zhiwei Wang"
 author = "Yeqin Zeng and Zhiwei Wang"
 
 release = "0.1"
