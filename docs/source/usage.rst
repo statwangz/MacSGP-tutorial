@@ -9,13 +9,13 @@ Required data
 
 * Annotated single-cell RNA-sequencing (scRNA-seq) data: gene expression + cell type labels.
 
-Pipeline overview
-=================
+Overview of MacSGP
+==================
 
-.. figure:: figures/pipeline.png
+.. figure:: figures/overview.png
    :width: 960px
    :align: center
-   :alt: Pipeline
+   :alt: Overview
 
 Cell type deconvolution
 =======================
