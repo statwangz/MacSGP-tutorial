@@ -1,34 +1,32 @@
+=====
 Usage
 =====
 
-.. _installation:
+Required data
+=============
 
-Installation
-------------
+* Spatial transcriptomic (ST) data: gene expression + spatial coordinates;
 
-To use Lumache, first install it using pip:
+* Annotated single-cell RNA-sequencing (scRNA-seq) data: gene expression + cell type labels.
 
-.. code-block:: console
+Pipeline overview
+=================
 
-   (.venv) $ pip install lumache
+.. figure:: figures/pipeline.png
+   :width: 960px
+   :align: center
+   :alt: Pipeline
 
-Creating recipes
-----------------
+Cell type deconvolution
+=======================
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+Cell-type-specific SGP identification
+=====================================
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+With the deconvolution results, we can identify cell-type-specific SGPs by applying ``MacSGP``.
+Please see more examples in :doc:`/analysis/index`.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. bibliography::
+    :filter: {"usage"} & docnames
 

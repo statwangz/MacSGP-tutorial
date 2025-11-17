@@ -1,22 +1,37 @@
-Welcome to Lumache's documentation!
+Welcome to MacSGP's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**MacSGP** is a Python xxx
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+On this tutorial website, we provide guidelines for using ``MacSGP`` along with real data analysis examples.
+The source code for building the website can be found at https://github.com/yqzenggugu/MacSGP-tutorial.
 
 Contents
---------
+========
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   installation.rst
+   usage.rst
+   analysis/index.rst
+
+Reference
+=========
+
+If you find the ``MacSGP`` package or any of the source code in this repository useful for your work, please cite:
+
+   | Mapping Cell-Type-Specific Spatial Gene Programs Uncovers Tissue Architecture and Microenvironment Organization.
+   | Yeqin Zeng, Zhiwei Wang, Yuyao Liu, Yuheng Chen, Jiguang Wang, Hao Chen, and Can Yang.
+   | Submitted, 2025.
+
+Development
+===========
+
+The Python package ``MacSGP`` is developed and maintained by `Yeqin Zeng <yzengbj@connect.ust.hk>`_.
+
+Contact
+=======
+
+Please feel free to contact `Yeqin Zeng <yzengbj@connect.ust.hk>`_, `Zhiwei Wang <zhiwei.wang@connect.ust.hk>`_, 
+or `Prof. Can Yang <macyang@ust.hk>`_ if any inquiries.
