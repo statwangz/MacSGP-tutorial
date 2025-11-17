@@ -4,7 +4,7 @@ Welcome to MacSGP's documentation!
 **MacSGP** is a Python xxx
 
 On this tutorial website, we provide guidelines for using ``MacSGP`` along with real data analysis examples.
-The source code for building the website can be found at https://github.com/yqzenggugu/MacSGP-tutorial.
+The source code for building the website can be found at https://github.com/statwangz/MacSGP-tutorial.
 
 Contents
 ========
