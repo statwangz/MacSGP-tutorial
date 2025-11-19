@@ -12,6 +12,7 @@ ArrayExpress with accession number `E-MTAB-11115 <https://www.ebi.ac.uk/biostudi
    
    mouse_brain_deconv
    mouse_brain_macsgp
+   mouse_brain_analysis
 
 .. bibliography::
    :filter: {"analysis/mouse_brain/index"} & docnames
