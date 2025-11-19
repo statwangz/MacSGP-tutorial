@@ -1,5 +1,5 @@
 ==========================================================
-Visium adult mouse brain datasets containing 2 biological replicates
+Visium adult mouse brain datasets containing two biological replicates
 ==========================================================
 
 The adult mouse brain dataset profiled by 10x Visium :cite:p:`you2024systematic` is available at 
