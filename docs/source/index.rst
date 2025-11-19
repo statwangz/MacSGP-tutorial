@@ -1,9 +1,9 @@
 Welcome to MacSGP's documentation!
 ===================================
 
-**MacSGP** is a Python xxx
+**MacSGP** is a scalable statistical and computational approach for MApping Cell-type-specific Spatial Gene Programs (SGPs) in spatial transcriptomic (ST) data.
 
-On this tutorial website, we provide guidelines for using ``MacSGP`` along with real data analysis examples.
+On this tutorial website, we provide guidelines for using **MacSGP** along with real data analysis examples.
 The source code for building the website can be found at https://github.com/statwangz/MacSGP-tutorial.
 
 Contents
@@ -19,7 +19,7 @@ Contents
 Reference
 =========
 
-If you find the ``MacSGP`` package or any of the source code in this repository useful for your work, please cite:
+If you find the **MacSGP** package or any of the source code in this repository useful for your work, please cite:
 
    | Mapping Cell-Type-Specific Spatial Gene Programs Uncovers Tissue Architecture and Microenvironment Organization.
    | Yeqin Zeng, Zhiwei Wang, Yuyao Liu, Yuheng Chen, Jiguang Wang, Hao Chen, and Can Yang.
@@ -28,7 +28,7 @@ If you find the ``MacSGP`` package or any of the source code in this repository 
 Development
 ===========
 
-The Python package ``MacSGP`` is developed and maintained by `Yeqin Zeng <yzengbj@connect.ust.hk>`_.
+The Python package **MacSGP** is developed and maintained by `Yeqin Zeng <yzengbj@connect.ust.hk>`_.
 
 Contact
 =======
