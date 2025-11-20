@@ -32,6 +32,7 @@ By default, we suppose ``adata.X`` stores the raw UMI counts of ST and scRNA-seq
 We first build spatial neighbor graph based on spatial coordinates for ST data.
 
 .. code-block:: python
+
    from MacSGP.utils import Cal_Spatial_Net
    
    Cal_Spatial_Net(adata_st, mode='KNN', k_cutoff=6)
@@ -39,6 +40,7 @@ We first build spatial neighbor graph based on spatial coordinates for ST data.
 Then, we normalize the data and select highly variable genes, ``adata_ref`` is summarized to ``adata_basis`` which contains the average expression profiles for each cell type.
 
 .. code-block:: python
+
    from MacSGP.utils import preprocess
    
    adata_st, adata_basis = MacSGP.utils.preprocess(adata_st,adata_ref,
