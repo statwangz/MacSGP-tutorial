@@ -11,7 +11,7 @@ Required data
 
 Preprocessing
 =============
-First, we need to prepare the ST data and reference data into two `AnnData` objects
+First, we need to prepare the ST data and reference data into two ``AnnData`` objects
 
 Overview of MacSGP
 ==================
