@@ -13,6 +13,12 @@ Preprocessing
 =============
 First, we need to prepare the ST data and reference data into two ``AnnData`` objects, which is the standard data class we use in ``MacSGP``. If you’re unfamiliar, you can refer to their `documentation <https://anndata.readthedocs.io/en/latest/index.html>`_ for details on creating ``AnnData`` objects from scratch and importing other formats (CSV, MTX, Loom, etc.) into ``AnnData``.
 
+Here we use the 10x visium mouse brain data for example, the ``h5ad`` project of ST data and reference data can be downloaded from here. 
+
+
+
+
+
 Overview of MacSGP
 ==================
 
