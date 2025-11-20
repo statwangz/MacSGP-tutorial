@@ -1,5 +1,5 @@
 =====
-Usage
+Usage: 
 =====
 
 Required data
@@ -20,6 +20,7 @@ Overview of MacSGP
 Cell type deconvolution
 =======================
 
+To distinguish cell-type-specific SGPs from cell type markers, we first need to estimate the cell type proportions to account for cell type mixtures through deconvolution methods. Here we provide our own implementation for cell type deconvolution that leverages deep graph neural networks and keeps consistency between the deconvolution results and the MacSGP model in terms of the definition of cell type proportion and correction of platform effects between ST and scRNA-seq technologies.
 
 Cell-type-specific SGP identification
 =====================================
