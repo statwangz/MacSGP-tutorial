@@ -43,9 +43,9 @@ Then, we normalize the data and select highly variable genes, ``adata_ref`` is s
 
    from MacSGP.utils import preprocess
    
-   adata_st, adata_basis = MacSGP.utils.preprocess(adata_st,adata_ref,
-                                                celltype_ref_col = "celltype",
-                                                n_hvg_group = 500)
+   adata_st, adata_basis = preprocess(adata_st,adata_ref,
+                                    celltype_ref_col = "celltype",
+                                    n_hvg_group = 500)
 
 
 
