@@ -29,6 +29,22 @@ Here we use the 10x visium mouse brain data for example, the ``h5ad`` project of
 
 By default, we suppose ``adata.X`` stores the raw UMI counts of ST and scRNA-seq gene expression matrix, ``adata_st.obsm['spatial']`` stores the spatail coordinates, and ``adata_ref.obs['celltype']`` stores the cell type labels. 
 
+We first build spatial neighbor graph based on spatial coordinates for ST data.
+
+.. code-block:: python
+   from MacSGP.utils import Cal_Spatial_Net
+   
+   Cal_Spatial_Net(adata_st, mode='KNN', k_cutoff=6)
+
+Then, we normalize the data and select highly variable genes, ``adata_ref`` is summarized to ``adata_basis`` which contains the average expression profiles for each cell type.
+
+.. code-block:: python
+   from MacSGP.utils import preprocess
+   adata_st, adata_basis = MacSGP.utils.preprocess(adata_st,adata_ref,
+                                                celltype_ref_col = "celltype",
+                                                n_hvg_group = 500)
+
+
 
 Overview of MacSGP
 ==================
