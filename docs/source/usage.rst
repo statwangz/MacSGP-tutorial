@@ -11,7 +11,7 @@ Required data
 
 Preprocessing
 =============
-First, we need to prepare the ST data and reference data into two ``AnnData`` objects, which is the standard data class we use in ``MacSGP``. If you’re unfamiliar, you can refer to their documentation <https://anndata.readthedocs.io/en/latest/index.html>_ for details on creating ``AnnData`` objects from scratch and importing other formats (CSV, MTX, Loom, etc.) into ``AnnData``.
+First, we need to prepare the ST data and reference data into two ``AnnData`` objects, which is the standard data class we use in ``MacSGP``. If you’re unfamiliar, you can refer to their `documentation <https://anndata.readthedocs.io/en/latest/index.html>`_ for details on creating ``AnnData`` objects from scratch and importing other formats (CSV, MTX, Loom, etc.) into ``AnnData``.
 
 Overview of MacSGP
 ==================
