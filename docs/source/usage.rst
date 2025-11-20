@@ -104,6 +104,7 @@ After trainning, ``MacSGP`` gives two outputs stored in ``adata_st.obsm['factor'
                 spot_size=100, 
                 ncols=6)
 
+
 .. bibliography::
     :filter: {"usage"} & docnames
 
