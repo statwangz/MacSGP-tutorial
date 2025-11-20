@@ -27,6 +27,8 @@ Here we use the 10x visium mouse brain data for example, the ``h5ad`` project of
    adata_st = sc.read_h5ad(os.path.join('./', "adata_st.h5ad")) # ST data
    adata_ref = sc.read_h5ad(os.path.join('./', "adata_ref.h5ad")) # reference data
 
+By default, we suppose ``adata.X`` stores the raw UMI counts of ST and scRNA-seq gene expression matrix, ``adata_st.obsm['spatial']`` stores the spatail coordinates, and ``adata_ref.obs['celltype']`` stores the cell type labels. 
+
 
 Overview of MacSGP
 ==================
