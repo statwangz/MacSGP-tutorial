@@ -1,6 +1,14 @@
 =====
-Usage: 
+Usage
 =====
+
+Overview of MacSGP
+==================
+
+.. figure:: figures/overview.png
+   :width: 960px
+   :align: center
+   :alt: Overview
 
 Required data
 =============
@@ -49,13 +57,6 @@ Then, we normalize the data and select highly variable genes, ``adata_ref`` is s
 
 
 
-Overview of MacSGP
-==================
-
-.. figure:: figures/overview.png
-   :width: 960px
-   :align: center
-   :alt: Overview
 
 Cell type deconvolution
 =======================
