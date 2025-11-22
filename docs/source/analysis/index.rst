@@ -1,5 +1,5 @@
 ==================
-Real data analysis
+MacSGP analysis
 ==================
 
 .. toctree::
