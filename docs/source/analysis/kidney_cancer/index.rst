@@ -11,6 +11,7 @@ a sample with the donorid 'PD47171' in our analysis.
    
    kidney_cancer_deconv
    kidney_cancer_macsgp
+   kidney_cancer_analysis
 
 .. bibliography::
    :filter: {"analysis/kidney_cancer/index"} & docnames
