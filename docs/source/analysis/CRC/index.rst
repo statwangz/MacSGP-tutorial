@@ -10,8 +10,13 @@ and the GEO DataSets database with accession number `GSE280318 <https://www.ncbi
    :maxdepth: 3
    
    CRC_visium
-   CRC_visiumHD
    CRC_xenium
+   CRC_xenium_panel
+   CRC_k=10
+   CRC_16um_goblet
+   CRC_bootstrap
+   CRC_hd_16um_subsample
+   CRC_K-auto-selection
 
 .. bibliography::
    :filter: {"analysis/CRC/index"} & docnames
