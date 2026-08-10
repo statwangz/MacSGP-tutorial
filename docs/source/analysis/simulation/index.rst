@@ -12,6 +12,7 @@ Here we applied MacSGP to a simulated dataset. We simulated two cell types terme
    simulation_ablation
    simulation_pca
    simulation_shift
+   simulation_complementary
 
 .. bibliography::
    :filter: {"analysis/simulation/index"} & docnames

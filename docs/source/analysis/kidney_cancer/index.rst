@@ -16,6 +16,7 @@ a sample with the donorid 'PD47171' in our analysis.
    kidney_cancer_k=10
    kidney_cancer_randinits
    kidney_cancer_sensitivity_analysis
+   kidney_cancer_benchmark
 
 .. bibliography::
    :filter: {"analysis/kidney_cancer/index"} & docnames
