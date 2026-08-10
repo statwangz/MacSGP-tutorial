@@ -16,7 +16,7 @@ and the GEO DataSets database with accession number `GSE280318 <https://www.ncbi
    CRC_16um_goblet
    CRC_bootstrap
    CRC_hd_16um_subsample
-   CRC_K-auto-selection
+   CRC_k-auto-selection
 
 .. bibliography::
    :filter: {"analysis/CRC/index"} & docnames
