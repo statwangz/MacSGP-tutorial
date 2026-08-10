@@ -47,6 +47,8 @@ exclude_patterns = ["_build", "**.ipynb_checkpoints", "**.rmd"]
 # -- Options for EPUB output
 epub_show_urls = "footnote"
 
+nbsphinx_execute = 'never'
+
 # References
 bibtex_bibfiles = ["refs.bib"]
 bibtex_bibliography_header = ".. rubric:: References"
